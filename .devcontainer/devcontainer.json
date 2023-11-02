@@ -1,0 +1,17 @@
+{
+	"image": "mcr.microsoft.com/vscode/devcontainers/base",
+	"customizations": {
+		"vscode": {
+			"settings": {},
+			"extensions": [
+				"rust-lang.rust-analyzer"
+			]
+		}
+	},
+	"features": {
+		"rust" : {
+			"version": "latest"
+		}
+	},
+	"remoteUser": "vscode"
+}
